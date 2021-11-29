@@ -5,7 +5,7 @@
 
     - 🔭 I'm currently working on [Daniel Kim Portfolio] (https://\*\*\*)
     - I'm currently learning ** HTML, CSS, and git **
-    - 👨‍💻This project is available at [link to github repo]
+    - 👨‍💻This project is available at [https://github.com/danielkim13/dk_portfolio_repo]
     - 📫How to reach me **daniel.d.kim13@gmail.com**
 
 #### Previous GW Boot Camp Assignments:
@@ -34,3 +34,5 @@
     - #4: WHEN I am presented with the developer's first application THEN that application's image should be larger in size than the others.
     - #5: WHEN I click on the images of the applications THEN I am taken to that deployed application.
     - #6: WHEN I resize the page or view the site on various screens and devices THEN I am presented with a responsive layout that adapts to my viewport.
+
+<hr />
