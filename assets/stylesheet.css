@@ -70,7 +70,8 @@ header nav ul li a:hover {
   font-weight: bolder;
   transform: scale(1.2, 1.2);
 }
-
+/* main navigation bar ends */
+/* About Me section begins */
 .meSection {
   display: flex;
   padding: var(--global-padding);
@@ -101,10 +102,28 @@ header nav ul li a:hover {
   padding: var(--global-padding);
   font-family: "Dongle", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
-  margin: 10px;
 }
 
 .myStory p {
   padding: 20px 30px;
   background: var(--p-bg-color);
 }
+/* About Me section ends */
+/* My Projects section begins */
+.projectSection {
+  display: flex;
+  padding: var(--global-padding);
+}
+
+.inner-container {
+  padding: var(--global-padding);
+}
+
+.run-buddy img {
+  width: 60rem;
+}
+
+.Horiseon img {
+  width: 15rem;
+}
+/* my Projects section ends */
