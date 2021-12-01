@@ -1,8 +1,11 @@
 /* root selector for setting var for the webpage consistency */
 :root {
-  --main-bg-color: black;
+  --main-nav-bg-color: black;
   --main-font-color: white;
   --hover-font-color: rgb(49, 191, 196);
+  --p-bg-color: rgb(209, 209, 209);
+  --global-padding: 20px;
+  --border-right-color: rgba(0, 0, 0, 0.507);
 }
 
 /* universal selector to have a clean canvas */
@@ -17,7 +20,7 @@
 header {
   display: flex;
   width: 100%;
-  background-color: var(--main-bg-color);
+  background-color: var(--main-nav-bg-color);
   position: sticky;
   top: 0;
 }
@@ -66,4 +69,42 @@ header nav ul li a:hover {
   color: var(--hover-font-color);
   font-weight: bolder;
   transform: scale(1.2, 1.2);
+}
+
+.meSection {
+  display: flex;
+  padding: var(--global-padding);
+}
+
+.title {
+  font-family: "Hurricane", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  width: 30%;
+  padding: var(--global-padding);
+  margin: auto 0;
+  border-right: 2px solid var(--border-right-color);
+}
+
+.myProPic {
+  padding: var(--global-padding);
+  margin: auto 0;
+}
+
+.myProPic img {
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+  border: 3px solid var(--hover-font-color);
+}
+
+.myStory {
+  padding: var(--global-padding);
+  font-family: "Dongle", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.myStory p {
+  padding: 20px 30px;
+  background: var(--p-bg-color);
 }
