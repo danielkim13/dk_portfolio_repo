@@ -78,7 +78,7 @@ header nav ul li a:hover {
   padding: var(--global-padding);
 }
 
-.title {
+.sectionHeader {
   font-family: "Hurricane", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3rem;
   flex: 0 0 110px;
@@ -239,3 +239,41 @@ footer h5 {
 }
 
 /* contactMe.html css done */
+
+/* Responsive Webpage Media Queries */
+@media screen and (max-width: 980px) {
+  .meSection,
+  .projectSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectionHeader {
+    border-right: none;
+    border-bottom: 2px solid var(--main-nav-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .projectSection img {
+    max-width: 900px;
+  }
+
+  .runbuddy,
+  .hori,
+  .box {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+}
