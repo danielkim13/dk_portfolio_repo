@@ -38,7 +38,7 @@ header {
 
 header nav {
   display: flex;
-  width: 75%;
+  width: 70%;
   align-items: center;
 }
 
@@ -80,10 +80,10 @@ header nav ul li a:hover {
 .title {
   font-family: "Hurricane", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3rem;
-  width: 30%;
+  flex: 0 0 110px;
   padding: var(--global-padding);
-  margin: auto 0;
   border-right: 2px solid var(--border-right-color);
+  text-align: center;
 }
 
 .myProPic {
@@ -102,6 +102,8 @@ header nav ul li a:hover {
   padding: var(--global-padding);
   font-family: "Dongle", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
+  text-align: left;
+  margin: auto 0;
 }
 
 .myStory p {
@@ -117,6 +119,8 @@ header nav ul li a:hover {
 
 .inner-container {
   padding: var(--global-padding);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .run-buddy img {
