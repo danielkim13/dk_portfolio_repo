@@ -240,7 +240,8 @@ footer h5 {
 
 /* contactMe.html css done */
 
-/* Responsive Webpage Media Queries */
+/* Responsive Webpage */
+/* Media Queries for 980px below */
 @media screen and (max-width: 980px) {
   .meSection,
   .projectSection {
@@ -275,5 +276,61 @@ footer h5 {
     width: 300px;
     overflow: hidden;
     border-radius: 50%;
+  }
+
+  .runbuddy_overlay,
+  .hori_overlay,
+  .box_overlay {
+    font-size: 2rem;
+  }
+}
+
+/* Media Queries for 550px below */
+@media screen and (max-width: 550px) {
+  header {
+    display: inline-block;
+  }
+
+  header nav {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid white;
+  }
+
+  header nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header nav ul li {
+    font-size: 0.9rem;
+  }
+
+  .myProPic img {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .myStory p {
+    font-size: 0.9rem;
+  }
+
+  .runbuddy,
+  .hori,
+  .box {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .runbuddy_overlay,
+  .hori_overlay,
+  .box_overlay {
+    font-size: 0.8rem;
+  }
+
+  footer h5 {
+    font-size: 0.5rem;
   }
 }
