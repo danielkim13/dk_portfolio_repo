@@ -39,3 +39,7 @@
 
 ##ScreenShot
 ![](assets/img/dkPortfolio.gif)
+
+## Trying to see if this happens.
+
+Can i just code on github and be able to push it to main?
