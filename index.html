@@ -4,99 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicon added -->
-    <link rel="icon" type="image/ico" href="./assets/img/favicon.ico" sizes="16x16" />
-    <!-- linking a cool font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Hurricane&family=Rancho&display=swap" rel="stylesheet" />
-    <!-- css stylesheet  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/stylesheet.css" type="text/css" />
-    <title>Daniel Kim Portfolio</title>
+    <link rel="icon" type="image/ico" href="./assets/img/favicon.ico" sizes="16x16" />
+    <title>DK Portfolio</title>
   </head>
   <body>
-    <header>
-      <!-- Navigation bar signature logo left and three menu display; Navigation bar need to be sticky and menu need to be hyperlinked to respective sections -->
-      <div class="main-logo">
-        <a href="./index.html">
-          <img src="./assets/img/danielkim_signature.png" alt="Daniel Kim Signature Logo" />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#my-projects">My Projects</a>
-          </li>
-          <li>
-            <a href="./contactMe.html">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- first section below the navigation bar; about me section -->
-    <section id="about-me" class="meSection">
-      <div class="sectionHeader">
-        <h3>About Me</h3>
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/"><span class="main-logo">D | K</span></a>
       </div>
 
-      <div class="myProPic">
-        <img src="./assets/img/dk_profile.jpg" alt="A profile photo of Daniel Kim" />
-      </div>
-      <div class="myStory">
-        <p>
-          Daniel Kim can be just one of many Daniel Kims you may find on Facebook when you search his name; however, his dedication to become a full-stack developer, work ethic, and experiences are second to none. Most of people know him and call him
-          as "DK". He is currently working as a software tester in an amazing team, and on a very interesting project. His current interest lies on building an automated testing tool for the project where his teammates and himself can enhance their
-          productivity.
-        </p>
-        <p>
-          Daniel’s passion wasn't into anything to do with a computer initially since he did not grow up having a computer handy in his household. His family immigrated to USA in 1998 and settled in Fairfax, Virginia. He went to Virginia Tech and
-          joined the Army to serve the Country which provided so much for him and his family. He proudly served and hung his uniform after eight years of active duty military service. Post-military, he worked for various companies around northern VA
-          area where he was exposed to computer programming. He always enjoyed being a problem solver and the concept of coding grabbed his attention. He took a leap of faith to join GWU coding boot camp in order to achieve his dream of becoming a
-          full-stack developer.
-        </p>
-      </div>
-    </section>
-    <!-- second section; a place where my work will be displayed -->
-    <section id="my-projects" class="projectSection">
-      <div class="sectionHeader">
-        <h3>My Projects</h3>
-      </div>
-      <div class="img-container">
-        <div class="runbuddy">
-          <!-- making the image hyperlink to open the website on a new tab -->
-          <a href="https://danielkim13.github.io/run-buddy/" target="_blank">
-            <!-- Copy and pasted the hero image on run-buddy website -->
-            <img class="runbuddy_img" src="./assets/img/hero-bg.jpeg" alt="A woman tying shoelaces in the middle of the road" />
-            <div class="runbuddy_overlay">
-              <p>RUN BUDDY</p>
-            </div>
-          </a>
-        </div>
-        <div class="hori">
-          <!-- making the image hyperlink to open the website on a new tab -->
-          <a href="https://danielkim13.github.io/Horiseon_Refac_Repo/" target="_blank">
-            <!-- Copy and pasted the hero image on Horiseon website -->
-            <img class="hori_img" src="./assets/img/digital-marketing-meeting.jpg" alt="A team reviewing documents in a meeting" />
-            <div class="hori_overlay">
-              <p>HORISEON</p>
-            </div>
-          </a>
-        </div>
-        <div class="city-girl">
-          <a href="https://danielkim13.github.io/code_breakers_repo/" target="_blank">
-          <img class="city-girl_img" src="./assets/img/citygirl.png" alt="" />
-          <div class="city_overlay">
-            <p>CityGirl</p>
-          </div>
+      <div class="navbar-menu">
+        <div class="navbar-end mr-5">
+          <a class="navbar-item" href="#about-me">About Me</a>
+          <a class="navbar-item" href="#my-projects">My Projects</a>
+          <a class="navbar-item" href="./contactMe.html">Contact Me</a>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <!-- Contact me to contactMe.html-->
-    <!-- Footer for copyright information -->
-    <footer>
-      <h5>Copyright © 2021 by Daniel Kim - All rights reserved</h5>
+    <footer class="footer">
+      <div class="content has-text-centered has-text-black">
+        <p>
+          Copyright<strong>&copy</strong> by <a href="https://github.com/danielkim13">Daniel Kim</a> <img src="./assets/img/gitHubLogo.png" width="15px" /> -all rights reserved. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
