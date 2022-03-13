@@ -134,13 +134,15 @@ header nav ul li a:hover {
 /* text on the image by hovering for the images */
 .runbuddy,
 .hori,
-.city-girl {
+.city-girl,
+.wag {
   position: relative;
 }
 
 .runbuddy_overlay,
 .hori_overlay,
-.city_overlay {
+.city_overlay,
+.wag-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -159,7 +161,8 @@ header nav ul li a:hover {
 
 .runbuddy_overlay:hover,
 .hori_overlay:hover,
-.city_overlay:hover {
+.city_overlay:hover,
+.wag-overlay:hover {
   opacity: 1;
   transition: 0.5s;
 }
@@ -271,7 +274,8 @@ footer h5 {
 
   .runbuddy,
   .hori,
-  .city-girl {
+  .city-girl,
+  .wag {
     height: 300px;
     width: 300px;
     overflow: hidden;
@@ -280,7 +284,8 @@ footer h5 {
 
   .runbuddy_overlay,
   .hori_overlay,
-  .city_overlay {
+  .city_overlay,
+  .wag-overlay {
     font-size: 2rem;
   }
 }
@@ -319,14 +324,16 @@ footer h5 {
 
   .runbuddy,
   .hori,
-  .city-girl {
+  .city-girl,
+  .wag {
     width: 50vw;
     height: 50vw;
   }
 
   .runbuddy_overlay,
   .hori_overlay,
-  .city_overlay {
+  .city_overlay,
+  .wag-overlay {
     font-size: 0.8rem;
   }
 
